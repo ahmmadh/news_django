@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     "pages"
 ]
 
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend" 
+
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
