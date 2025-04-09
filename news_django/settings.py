@@ -42,8 +42,11 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_bootstrap5",
     "accounts",
-    "pages"
+    "pages",
+    "articles"
 ]
+
+TIME_ZONE = "Asia/Kuwait"
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend" 
 
